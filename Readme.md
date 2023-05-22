@@ -19,6 +19,7 @@ Auto-complete movies search box created using REACT(Client) and Nodejs(express).
 - Install npm: `npm init`
 - Install Nodemon:`npm install nodemon -D`
 - Install Express:`npm install express`
+- Install Cors:`npm install cors`
 - Go to `package.json` and rewrite the scripts as
 
   ```
