@@ -37,7 +37,7 @@ export const Search = () => {
 
   useEffect(() => {
     const timeout = setTimeout(() => {
-      if (searchInputValue) fetchMovies();
+      fetchMovies();
     }, 300);
     return () => {
       clearTimeout(timeout);
